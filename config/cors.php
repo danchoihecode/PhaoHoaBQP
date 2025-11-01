@@ -19,7 +19,13 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => [
+        'https://api.phaohoabqp.me',
+        'https://admin.phaohoabqp.me', 
+        'https://phaohoabqp.me',     
+        'http://localhost:3000', 
+        'http://localhost:5173',     
+    ],
 
     'allowed_origins_patterns' => [],
 
