@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('category');
             $table->date('release_date');
             $table->text('content');
+            $table->string('slug');
             $table->tinyInteger('column')->nullable();
             $table->timestamps();
         });
