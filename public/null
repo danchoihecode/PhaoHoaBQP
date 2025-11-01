@@ -1,0 +1,205 @@
+<?php
+
+use App\Models\ContactDetail;
+
+
+ContactDetail::updateOrCreate(
+    ['id' => 1],
+    [
+        'phone_number' => '1234567890',
+        'operation_hours' => '9h00 - 18h00',
+        'fee' => 'Miễn phí',
+        'type' => 'Bán hàng'
+    ]
+);
+<?php
+
+use App\Models\ContactDetail;
+
+
+ContactDetail::updateOrCreate(
+    ['id' => 1],
+    [
+        'phone_number' => '1234567890',
+        'operation_hours' => '9h00 - 18h00',
+        'fee' => 'Miễn phí',
+        'type' => 'Bán hàng'
+    ]
+);
+use App\Models\ContactDetail;
+
+
+ContactDetail::updateOrCreate(
+    ['id' => 1],
+    [
+        'phone_number' => '1234567890',
+        'operation_hours' => '9h00 - 18h00',
+        'fee' => 'Miễn phí',
+        'type' => 'Bán hàng'
+    ]
+);
+use App\Models\ContactDetail;
+
+
+ContactDetail::updateOrCreate(
+    ['id' => 1],
+    [
+        'phone_number' => '1234567890',
+        'operation_hours' => '9h00 - 18h00',
+        'fee' => 'Miễn phí',
+        'type' => 'Sale'
+    ]
+);
+use App\Models\ContactDetail;
+
+
+ContactDetail::updateOrCreate(
+    ['id' => 5],
+    [
+        'phone_number' => '1234567890',
+        'operation_hours' => '9h00 - 18h00',
+        'fee' => 'Miễn phí',
+        'type' => 'Sale'
+    ]
+);
+use App\Models\ContactDetail;
+
+
+ContactDetail::updateOrCreate(
+    ['id' => 5],
+    [
+        'phone_number' => '1234567890',
+        'operation_hours' => '9h00 - 18h00',
+        'fee' => 'Miễn phí',
+        'type' => 'Sales'
+    ]
+);
+use App\Models\ContactDetail;
+
+
+ContactDetail::updateOrCreate(
+    ['id' => 1],
+    [
+        'phone_number' => '1234567890',
+        'operation_hours' => '9h00 - 18h00',
+        'fee' => 'Miễn phí',
+        'type' => 'Sales'
+    ]
+);
+use App\Models\ContactDetail;
+
+App\Models\SocialMedia::truncate();
+use App\Models\ContactDetail;
+
+App\Models\SocialMedia::truncate();
+use App\Models\ContactDetail;
+
+App\Models\Article::where('column', 1)->select('name', 'slug')->get();
+use App\Models\ContactDetail;
+
+App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+use App\Models\ContactDetail;
+$articale = "abc";
+ url("/posts/{$articale}")
+use App\Models\ContactDetail;
+$articale = "abc";
+ url("/posts/$articale")
+use App\Models\ContactDetail;
+$articale = "abc";
+ url("/posts/$articale")
+use App\Models\ContactDetail;
+$articale = "abc";
+ url("/posts/$articale")
+use App\Models\ContactDetail;
+$articale = "abc";
+ url("/posts/$articale")
+use App\Models\ContactDetail;
+
+ 
+
+App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+use App\Models\ContactDetail;
+
+ 
+
+$a = App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+$a->slug;
+use App\Models\ContactDetail;
+
+ 
+
+$a = App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+foreach ($a as $article) {
+    
+    $article->slug = 'new-slug-' . $article->id; 
+}
+use App\Models\ContactDetail;
+
+ 
+
+$a = App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+foreach ($a as $article) {
+    
+    $article->slug = 'new-slug-' . $article->id; 
+  	echo $article->slug;
+}
+use App\Models\ContactDetail;
+
+ 
+
+$a = App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+foreach ($a as $article) {
+    
+    $article->slug = url('new-slug-'); 
+  	echo $article->slug;
+}
+use App\Models\ContactDetail;
+
+ 
+
+$a = App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+foreach ($a as $article) {
+    
+    $article->slug = url('new-slug-{$article->slug}'); 
+  	echo $article->slug;
+}
+use App\Models\ContactDetail;
+
+ 
+
+$a = App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+foreach ($a as $article) {
+    
+    $article->slug = url('new-slug-$article->slug'); 
+  	echo $article->slug;
+}
+use App\Models\ContactDetail;
+
+ 
+
+$a = App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+foreach ($a as $article) {
+    
+    $article->slug = url("new-slug-$article->slug"); 
+  	echo $article->slug;
+}
+use App\Models\ContactDetail;
+
+ 
+
+$a = App\Models\Article::where('column', 1)->select('title', 'slug')->get();
+foreach ($a as $article) {
+    
+    $article->slug = url("new-slug-{$article->slug}"); 
+  	echo $article->slug;
+}
+use App\Models\ContactDetail;
+
+ 
+
+App\Models\SocialMedia::select('platform', 'likes');
+use App\Models\ContactDetail;
+
+ 
+
+App\Models\SocialMedia::select('platform', 'likes')->get();
