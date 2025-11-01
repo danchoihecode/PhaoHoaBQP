@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use App\Http\Controllers\API\ProductController;
+use App\Http\Controllers\Api\ProductController;
 use App\Main\Services\ProductService;
 use App\Models\Category;
 use Illuminate\Http\Request;
